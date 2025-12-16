@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const OurServices = () => {
+  const navigate=useNavigate()
   return (
     <div className="bg-primaryBackdround h-screen w-full">
       <div className="h-40 flex flex-col gap-3">
@@ -64,7 +66,9 @@ const OurServices = () => {
           </div>
           
         </div>
-        <button  className="flex rounded-xl px-5  text-white font-bold items-center justify-center py-2 bg-purple-500 hover:bg-purple-600 ">View All Services <img className ="ml-2.5" src="./public/icons8-arrow-50.png" alt="" /></button>
+        <button  onClick={()=>{
+          navigate('/services')
+        }} className="flex rounded-xl px-5  text-white font-bold items-center justify-center py-2 bg-purple-500 hover:bg-purple-600 ">View All Services <img className ="ml-2.5" src="./public/icons8-arrow-50.png" alt="" /></button>
       </div>
     </div>
   );

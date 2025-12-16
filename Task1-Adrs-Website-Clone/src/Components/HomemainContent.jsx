@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 const HomemainContent = () => {
+  const navigate=useNavigate()
   return (
     <div className="h-screen w-full pt-8 flex flex-col gap-4 ">
       <div className=" h-2/3 w-full flex justify-between ">
@@ -17,7 +18,7 @@ const HomemainContent = () => {
             ecosystem.
           </p>
           <div className=" w-full h-15  flex gap-6 items-center">
-            <button className=" rounded-xl px-4 py-3  bg-purple-500 text-white flex">
+            <button onClick={()=>navigate('/contact')} className=" rounded-xl px-4 py-3  bg-purple-500 text-white flex">
               Book a Demo
               <img
                 className="w-7 ml-3 "
@@ -25,7 +26,7 @@ const HomemainContent = () => {
                 alt=""
               />
             </button>
-            <button className="rounded-xl px-4 py-3.5 bg-white/20   text-white">
+            <button onClick={()=>navigate('/services')} className="rounded-xl px-4 py-3.5 bg-white/20   text-white">
               Our Services
             </button>
           </div>
