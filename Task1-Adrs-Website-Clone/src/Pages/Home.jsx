@@ -3,6 +3,7 @@ import HomemainContent from '../Components/HomemainContent'
 import Home2part from '../Components/Home2part'
 import OurServices from '../Components/OurServices'
 import FeaturedProducts from '../Components/FeaturedProducts'
+import OurImpact from '../Components/OurImpact'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Home2part/>
       <OurServices/>
       <FeaturedProducts/>
+      <OurImpact/>
    
     </div>
     
