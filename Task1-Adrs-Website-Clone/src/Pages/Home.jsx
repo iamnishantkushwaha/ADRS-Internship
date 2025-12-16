@@ -4,16 +4,20 @@ import Home2part from '../Components/Home2part'
 import OurServices from '../Components/OurServices'
 import FeaturedProducts from '../Components/FeaturedProducts'
 import OurImpact from '../Components/OurImpact'
+import StartYourJourney from '../Components/StartYourJourney'
+import Footer from '../Components/Footer'
 
 const Home = () => {
   return (
-    <div className='h-auto w-full flex flex-col  bg-primaryBackdround'>
+    <div className='h-auto mt-16  w-full flex flex-col  bg-primaryBackdround'>
       
       <HomemainContent/>
       <Home2part/>
       <OurServices/>
       <FeaturedProducts/>
       <OurImpact/>
+      <StartYourJourney/>
+      <Footer/>
    
     </div>
     

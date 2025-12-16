@@ -2,8 +2,8 @@ import React from 'react'
 import {NavLink} from 'react-router-dom'
 const Navbar = () => {
   return (
-    <div className='h-18 w-full flex items-center justify-between ' >
-        <div className='h-full w-30 flex items-center justify-center'>< img  src="https://www.adrstechno.com/logo-dark.png" alt="logo" /></div>
+    <div className='h-18 w-full flex items-center bg-black justify-between  fixed' >
+        <div className='h-full w-30 flex items-center justify-center '>< img  src="https://www.adrstechno.com/logo-dark.png" alt="logo" /></div>
         <div className='h-full w-1/2 text-white'><ul className='h-full flex items-center justify-between'>
             <li>
                 <NavLink to='/'>Home</NavLink>
