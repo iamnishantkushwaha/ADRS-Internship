@@ -8,12 +8,13 @@ import AboutUs from './Pages/AboutUs'
 import Contact from './Pages/Contact'
 import {Routes,Route} from 'react-router-dom'
 import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
 function App() {
   
 
   return (
-    <div className="h-auto w-screen bg-primaryBackdround flex justify-center ">
-      <div className="h-full w-4/5 bg-primaryBackdround">
+    <div className="h-fit w-screen overflow-x-hidden  bg-primaryBackdround flex justify-center ">
+      <div className="h-full w-full  bg-primaryBackdround">
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -25,7 +26,7 @@ function App() {
              <Route path='/aboutus' element={<AboutUs/>}/>
               <Route path='/contact' element={<Contact/>}/>
       </Routes>
-
+      <Footer/>
       </div>
     </div>
   )

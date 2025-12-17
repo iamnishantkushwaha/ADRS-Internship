@@ -15,7 +15,7 @@ const StartYourJourney = () => {
         </p>
       </div>
       
-      <button className="flex   rounded-xl px-7  text-white font-bold items-center justify-center py-2 bg-purple-500 hover:bg-purple-600 " onClick={()=>{
+      <button className="flex   mb-20 rounded-xl px-7  text-white font-bold items-center justify-center py-2 bg-purple-500 hover:bg-purple-600 " onClick={()=>{
         navigate('/contact')
       }} >Contact Us Today<img src="./public/icons8-arrow-50.png" alt=""  /></button>
     </div>

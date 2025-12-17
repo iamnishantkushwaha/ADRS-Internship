@@ -2,7 +2,7 @@ import React from 'react'
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div className='bg-primaryBackdround h-screen w-full'>Gallery</div>
   )
 }
 

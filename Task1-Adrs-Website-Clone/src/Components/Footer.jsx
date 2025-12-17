@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
-    <>
+    <div className="w-full px-45 absolute bottom bg-primaryBackdround h-fit ">
     <div className="w-full  flex border-b-gray-700 border-2 items-center justify-center h-10/12 ">
       <div className="grid items-center justify-center grid-cols-5 gap-10">
         <div className="flex flex-col gap-2">
@@ -13,7 +13,7 @@ const Footer = () => {
           </span>
           <p className="text-gray-400">Enterprise-grade SaaS & PaaS solutions for modern businesses.</p>
           <p className="text-gray-400">
-            Address: <a className="text-white hover:underline">71, Dadda nagar
+            Address: <a href="https://www.google.com/maps/search/?api=1&query=71,+Dadda+nagar+Near+katangi+highway+Jabalpur+MP+482001" className="text-white hover:underline">71, Dadda nagar
             Near katangi highway,
            Jabalpur MP 482001
             </a>
@@ -92,7 +92,7 @@ const Footer = () => {
         <h3>© 2025 ADRS Technology. All rights reserved.</h3>
         <h3 className="mr-20">Built with precision and care</h3>
        </div>
-      </>
+      </div>
    
   );
 };

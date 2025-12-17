@@ -2,7 +2,7 @@ import React from 'react'
 
 const Products = () => {
   return (
-    <div>Products</div>
+    <div className='bg-primaryBackdround h-screen w-full'>Products</div>
   )
 }
 

@@ -5,11 +5,11 @@ import OurServices from '../Components/OurServices'
 import FeaturedProducts from '../Components/FeaturedProducts'
 import OurImpact from '../Components/OurImpact'
 import StartYourJourney from '../Components/StartYourJourney'
-import Footer from '../Components/Footer'
+
 
 const Home = () => {
   return (
-    <div className='h-auto mt-16  w-full flex flex-col  bg-primaryBackdround'>
+    <div className='h-fit mt-24 px-45 w-full flex flex-col bg-primaryBackdround'>
       
       <HomemainContent/>
       <Home2part/>
@@ -17,7 +17,7 @@ const Home = () => {
       <FeaturedProducts/>
       <OurImpact/>
       <StartYourJourney/>
-      <Footer/>
+     
    
     </div>
     
