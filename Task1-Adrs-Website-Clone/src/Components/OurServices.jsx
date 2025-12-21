@@ -4,27 +4,27 @@ import { useNavigate } from "react-router-dom";
 const OurServices = () => {
   const navigate=useNavigate()
   return (
-    <div className="bg-primaryBackdround h-screen w-full">
+    <div className="bg-primaryBackdround min-h-screen mb-7 w-full">
       <div className="h-40 flex flex-col gap-3">
         <span className=" flex items-center justify-center gap-4">
-          <h1 className="text-white  font-bold text-5xl">OUR</h1>
-          <h1 className="text-purple-400 font-bold text-5xl">SERVICES</h1>
+          <h1 className="text-white  font-bold text-4xl lg:text-5xl">OUR</h1>
+          <h1 className="text-purple-400 font-bold  text-4xl lg:text-5xl">SERVICES</h1>
         </span>
-        <p className="text-xl text-center  text-white ">
+        <p className="lg:text-xl  text-lg text-center  text-gray-400 ">
           Cutting-edge solutions engineered for reliability and scalability.
         </p>
       </div>
       <div className="flex flex-col gap-10 mt-5 items-center justify-center">
-        <div className="flex h-auto gap-14 justify-center">
+        <div className="flex h-auto gap-14 flex-col w-full items-center md:flex-row  justify-center">
           
-          <div className="h-90 w-90 rounded-xl p-8 bg-white/10 flex flex-col gap-4  text-white hover:shadow-2xl shadow-purple-500 hover:text-purple-500">
+          <div className="h-80 w-80 lg:h-90 md:h-105 lg:w-90 rounded-xl  p-8 bg-white/10 flex flex-col gap-4  text-white hover:shadow-2xl shadow-purple-500 hover:text-purple-500">
             <div>
               <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 24 24"
-                class="text-5xl text-purple-600 dark:text-purple-400"
+                className="text-5xl text-purple-600 dark:text-purple-400"
                 height="1em"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,9 @@ const OurServices = () => {
               engineering, and cloud-ready architectures.
             </div>
           </div>
-          <div className="h-90 w-90 rounded-xl p-8 bg-white/10 flex flex-col gap-4  text-white hover:shadow-2xl shadow-purple-500 hover:text-purple-500">
+          <div className="h-80 w-80  md:h-105 lg:h-90 lg:w-90 rounded-xl p-8 bg-white/10 flex flex-col gap-4  text-white hover:shadow-2xl shadow-purple-500 hover:text-purple-500">
             <div>
-              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-5xl text-purple-600 dark:text-purple-400" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"></path></svg>
+              <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-5xl text-purple-600 dark:text-purple-400" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"></path></svg>
             </div>
             <div className="text-2xl font-bold">
               Security Consultation
@@ -53,9 +53,9 @@ const OurServices = () => {
              Advanced penetration testing, vulnerability analysis, threat detection, and enterprise-grade security solutions.
             </div>
           </div>
-          <div className="h-90 w-90 rounded-xl p-8 bg-white/10 flex flex-col gap-3  text-white hover:shadow-2xl shadow-purple-500 hover:text-purple-500">
+          <div className="h-80 w-80 lg:h-90 lg:w-90 md:h-105 rounded-xl p-8 bg-white/10 flex flex-col gap-3  text-white hover:shadow-2xl shadow-purple-500 hover:text-purple-500">
             <div>
-              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-5xl text-purple-600 dark:text-purple-400" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22 10v12H2V10l7-3v2l5-2v3h8zm-4.8-1.5L18 2h3l.8 6.5h-4.6zM11 18h2v-4h-2v4zm-4 0h2v-4H7v4zm10-4h-2v4h2v-4z"></path></svg>
+              <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-5xl text-purple-600 dark:text-purple-400" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22 10v12H2V10l7-3v2l5-2v3h8zm-4.8-1.5L18 2h3l.8 6.5h-4.6zM11 18h2v-4h-2v4zm-4 0h2v-4H7v4zm10-4h-2v4h2v-4z"></path></svg>
             </div>
             <div className="text-2xl font-bold">
               Industrial Automation

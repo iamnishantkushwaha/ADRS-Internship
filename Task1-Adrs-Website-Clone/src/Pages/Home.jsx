@@ -9,14 +9,14 @@ import StartYourJourney from '../Components/StartYourJourney'
 
 const Home = () => {
   return (
-    <div className='h-fit mt-24 px-45 w-full flex flex-col bg-primaryBackdround'>
+    <div className='h-fit mt-24 px-2 w-full flex flex-col bg-primaryBackdround'>
       
       <HomemainContent/>
       <Home2part/>
       <OurServices/>
       <FeaturedProducts/>
       <OurImpact/>
-      <StartYourJourney/>
+     <StartYourJourney/>
      
    
     </div>

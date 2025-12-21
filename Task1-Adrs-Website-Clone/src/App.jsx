@@ -9,12 +9,14 @@ import Contact from './Pages/Contact'
 import {Routes,Route} from 'react-router-dom'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
+
+
 function App() {
   
 
   return (
-    <div className="h-fit w-screen overflow-x-hidden  bg-primaryBackdround flex justify-center ">
-      <div className="h-full w-full  bg-primaryBackdround">
+    <div className="min-h-screen min-w-screen  nav-color bg-primaryBackdround flex justify-center ">
+      <div className="h-full w-full  nav-color2">
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
