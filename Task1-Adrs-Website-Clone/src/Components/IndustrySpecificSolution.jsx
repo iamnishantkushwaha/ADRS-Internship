@@ -2,15 +2,15 @@ import React from "react";
 
 const IndustrySpecificSolution = () => {
   return (
-    <div className="flex flex-col h-auto   gap-12">
+    <div className="flex flex-col h-auto  mb-20 gap-12">
       <div className="w-full flex  items-center  justify-center">
         <div className="h-fit w-fit flex flex-col mt-20  items-center justify-content ">
           <div className="w-full h-fit flex items-center justify-center">
-            <span className="flex gap-3">
+            <span className="flex flex-col text-center gap-3">
               <h1 className="text-white  font-bold text-3xl">
                 Industry-Specific{" "}
               </h1>
-              <h1 className="text-purple-400 font-bold text-3xl">Solutions</h1>
+              <h1 className="text-purple-400 font-bold text-3xl leading-3 lg:leading-none">Solutions</h1>
             </span>
           </div>
           <p className="mt-3.5 text-xl text-center  text-gray-400 ">
@@ -18,8 +18,8 @@ const IndustrySpecificSolution = () => {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-3 grid-rows-2  px-45  gap-y-8 bg-primaryBackdround">
-        <div className="bg-white/20  h-56 w-88 flex flex-col items-center justify-center gap-2.5 rounded-xl p-4">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 md:grid-rows-3 md:px-14 lg:grid-rows-2 grid-cols-1 grid-row-6 lg:px-45 p-3  md:p-5 gap-y-8 bg-primaryBackdround">
+        <div className="bg-white/20  h-56 lg:w-75 w-full md:w-83 flex flex-col items-center justify-center gap-2.5 rounded-xl p-4">
           <div>
             <svg
               stroke="#c084fc"
@@ -41,7 +41,7 @@ const IndustrySpecificSolution = () => {
           </p>
         </div>
 
-        <div className="bg-white/20  h-56 w-88 flex flex-col items-center justify-center gap-2.5 rounded-xl p-4">
+        <div className="bg-white/20  h-56 lg:w-75 w-full md:w-83 flex flex-col items-center justify-center gap-2.5 rounded-xl p-4">
           <div>
             <svg
               stroke="#c084fc"
@@ -62,7 +62,7 @@ const IndustrySpecificSolution = () => {
           </p>
         </div>
 
-        <div className="bg-white/20  h-56 w-88 flex flex-col items-center justify-center gap-2.5 rounded-xl p-4">
+        <div className="bg-white/20  lg:w-75 h-56 w-full md:w-83 flex flex-col items-center justify-center gap-2.5 rounded-xl p-4">
           <div>
             <svg
               stroke="#c084fc"
@@ -87,7 +87,7 @@ const IndustrySpecificSolution = () => {
           </p>
         </div>
 
-        <div className="bg-white/20  h-56 w-88 flex flex-col items-center justify-center gap-2.5 rounded-xl p-4">
+        <div className="bg-white/20  lg:w-75 h-56 md:w-83 w-full flex flex-col items-center justify-center gap-2.5 rounded-xl p-4">
           <div>
             <svg
               stroke="#c084fc"
@@ -113,7 +113,7 @@ const IndustrySpecificSolution = () => {
           </p>
         </div>
 
-        <div className="bg-white/20  h-56 w-88 flex flex-col items-center justify-center gap-2.5 rounded-xl p-4">
+        <div className="bg-white/20 lg:w-75 h-56 w-full md:w-83 flex flex-col items-center justify-center gap-2.5 rounded-xl p-4">
           <div>
             <svg stroke="#c084fc" fill="#c084fc" stroke-width="0" viewBox="0 0 256 256" class="text-5xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
           </div>
@@ -123,7 +123,7 @@ const IndustrySpecificSolution = () => {
           </p>
         </div>
 
-        <div className="bg-white/20  h-56 w-88 flex flex-col items-center justify-center gap-2.5 rounded-xl p-4">
+        <div className="bg-white/20  md:w-83 lg:w-75 h-56 w-full flex flex-col items-center justify-center gap-2.5 rounded-xl p-4">
           <div>
             <svg stroke="#c084fc" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-5xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
           </div>

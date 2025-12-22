@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
-    <div className="w-full  px-5 absolute bottom bg-primaryBackdround hit-fit ">
+    <div className="w-full  px-5 xl:px-45 absolute bottom bg-primaryBackdround hit-fit ">
     <div className="w-full  flex   border-b-gray-700 border-2 items-center justify-center h-10/12 ">
       <div className="grid  md:mb-10 md:grid-cols-5 grid-rows-3 grid-cols-2 md:grid-rows-1 items-center justify-center md:items-start gap:0 md:gap-10">
         <div className="flex flex-col  col-span-2 md:col-span-1 gap-2">

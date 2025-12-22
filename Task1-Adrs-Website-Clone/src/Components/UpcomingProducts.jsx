@@ -2,16 +2,16 @@ import React from "react";
 
 const UpcomingProducts = () => {
   return (
-    <div className="h-screen w-full mt-60 mb-12 flex flex-col gap-12 items-center justify-center">
+    <div className="min-h-screen w-full lg:mt-60  mt-30 mb-12 flex flex-col gap-12 items-center justify-center">
       <div className="h-fit  w-fit flex flex-col items-center justify-center ">
-        <h1 className="text-white  font-bold text-3xl ">Upcoming Products</h1>
+        <h1 className="text-white  font-bold text-2xl lg:text-3xl ">Upcoming Products</h1>
 
         <p className="mt-3.5 text-xl text-center  text-gray-400 ">
           Exciting new products coming soon — stay tuned and request early
           access.
         </p>
       </div>
-      <div className=" h-80 w-full px-45 grid grid-cols-4  gap-5 ">
+      <div className="   lg:px-45 justify-center grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 md:gap-25 gap-5 ">
         <div className="bg-white/00 border-2 border-gray-900 h-70 w-65 rounded-xl flex flex-col justify-center gap-4 items-center">
          <div className="flex items-center justify-center">
             <img
