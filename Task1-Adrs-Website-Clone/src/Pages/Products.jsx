@@ -8,7 +8,7 @@ import Readytogetstarted from '../Components/Readytogetstarted'
 
 const Products = () => {
   return (
-    <div className='bg-primaryBackdround flex flex-col products items-center justify-center h-auto w-full'>
+    <div className='bg-primaryBackdround lg:px-2 px-8  flex flex-col products items-center justify-center h-auto w-full'>
     <Powerfulproducts/>
     <UpcomingProducts/>
     <FeaturedProductspage/>

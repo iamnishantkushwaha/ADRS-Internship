@@ -7,7 +7,7 @@ import ADRSisImportant from '../Components/ADRSisImportant'
 
 const Services = () => {
   return (
-    <div className=' min-h-screen w-full mb-0 bg-primaryBackdround'>
+    <div className=' min-h-screen w-full lg:px-2 px-8 mb-0 bg-primaryBackdround'>
       <EnterpriseSolutions/>
       <Coreservices/>
       <AdditionalServices/>

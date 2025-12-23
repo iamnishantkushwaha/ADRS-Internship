@@ -85,7 +85,7 @@ const [ismenuopen,Setismenuopen]=useState(false);
                 <NavLink to='/products'>Products</NavLink>
             </li>
             <li className=' w-full p-1.5 hover:text-purple-400 '>
-                <NavLink to='/workshop'>Workshops</NavLink>
+                <NavLink to='/workshops'>Workshops</NavLink>
             </li>
             <li className=' w-full p-1.5 hover:text-purple-400 '>
                 <NavLink to='/career'>Career</NavLink>

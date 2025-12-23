@@ -15,7 +15,7 @@ const FrequentlyAskedQuestion = () => {
         </p>
       </div>
       <div className="h-full w-full lg:px-30 flex flex-col gap-6 mb-7 ">
-        <div className="lg:h-30 h-fit h-30 p-4 border-2 rounded-xl bg-enterprisesolution border-gray-900">
+        <div className="lg:h-30 h-fit  p-4 border-2 rounded-xl bg-enterprisesolution border-gray-900">
           <h1 className="text-xl  font-bold text-white">
             What is included in the free trial?
           </h1>
