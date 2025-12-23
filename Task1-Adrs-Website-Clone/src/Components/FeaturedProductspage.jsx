@@ -2,8 +2,8 @@ import React from "react";
 
 const FeaturedProductspage = () => {
   return (
-    <div className="min-h-screen  flex min-w-screen md:flex-row flex-col md:px-45 ">
-      <div className="h-full flex flex-col md:w-4xl w-90 p-1">
+    <div className="min-h-screen  px-10 flex min-w-screen lg:flex-row flex-col md:px-45 ">
+      <div className="h-full flex flex-col md:w-3xl lg:w-4xl w-90 p-1">
         <div className="h-18  ">
           <h1 className="font-bold text-3xl text-white">Featured Products</h1>
           <p className=" text-l text-wrap w-80 text-gray-400 ">
@@ -11,8 +11,8 @@ const FeaturedProductspage = () => {
             a trial.
           </p>
         </div>
-        <div className=" grid grid-cols-1 md:grid-cols-2 md:grid-rows-2  md:px-6 md:py-10 w-full gap-19 p-7 rounded-xl border-2">
-          <div className=" h-fit md:w-full rounded-3xl bg-white/20 ">
+        <div className=" grid grid-cols-1 md:grid-cols-2 justify-center items-center md:grid-rows-2  md:px-6 md:py-10 w-full gap-19 p-7 rounded-xl border-2">
+          <div className=" h-fit w-full  rounded-3xl bg-white/20 ">
             <div className="w-full h-30 bg-featuredproductsicon1 flex rounded-t-3xl justify-center items-center ">
               <span className="text-5xl">🏥</span>
             </div>
@@ -103,10 +103,10 @@ const FeaturedProductspage = () => {
                   </li>
                 </ul>
                 <div className="flex mt-3.5 mb-3.5 h-10  w-full items-center justify-between">
-                  <button className="text-white bg-cyan-500 md:px-10 md:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl ">
+                  <button className="text-white hover:scale-125 transition-all bg-cyan-500 lg:px-10 lg:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl ">
                     Try Demo
                   </button>
-                  <button className=" border-2 text-cyan-500 border-cyan-500 md:px-10 md:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
+                  <button className=" border-2 hover:scale-125 transition-all text-cyan-500 border-cyan-500 lg:px-10 lg:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
                     Learn More
                   </button>
                 </div>
@@ -207,10 +207,10 @@ const FeaturedProductspage = () => {
                   </li>
                 </ul>
                 <div className="flex mt-3.5 mb-3.5 h-10  w-full items-center justify-between">
-                  <button className="text-white bg-cyan-500 md:px-10 md:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
+                  <button className="text-white hover:scale-125 transition-all bg-cyan-500 lg:px-10 lg:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
                     Try Demo
                   </button>
-                  <button className=" border-2 text-cyan-500 border-cyan-500 md:px-10 md:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
+                  <button className=" border-2 hover:scale-125 transition-all text-cyan-500 border-cyan-500 lg:px-10 lg:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
                     Learn More
                   </button>
                 </div>
@@ -310,10 +310,10 @@ const FeaturedProductspage = () => {
                   </li>
                 </ul>
                 <div className="flex mt-3.5 mb-3.5 h-10  w-full items-center justify-between">
-                  <button className="text-white bg-cyan-500 md:px-10 md:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
+                  <button className="text-white hover:scale-125 transition-all bg-cyan-500 lg:px-10 lg:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
                     Try Demo
                   </button>
-                  <button className="border-2 text-cyan-500 border-cyan-500 md:px-10 md:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
+                  <button className="border-2 hover:scale-125 transition-all text-cyan-500 border-cyan-500 lg:px-10 lg:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
                     Learn More
                   </button>
                 </div>
@@ -411,10 +411,10 @@ const FeaturedProductspage = () => {
                   </li>
                 </ul>
                 <div className="flex mt-3.5 mb-3.5 h-10  w-full items-center justify-between">
-                  <button className="text-white bg-cyan-500 md:px-10 md:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
+                  <button className="text-white hover:scale-125 transition-all bg-cyan-500 lg:px-10 lg:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
                     Try Demo
                   </button>
-                  <button className="border-2 text-cyan-500 border-cyan-500 md:px-10 md:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
+                  <button className="border-2 hover:scale-125 transition-all text-cyan-500 border-cyan-500 lg:px-10 lg:py-3 px-7 py-3.5 text-sm md:text-md rounded-xl">
                     Learn More
                   </button>
                 </div>
@@ -424,8 +424,8 @@ const FeaturedProductspage = () => {
         </div>
       </div>
 
-      <div className="h-fit rounded-2xl  w-80 bg-enterprisesolution  p-4">
-        <div className="h-65 p-5 flex flex-col gap-3 "><h1 className="text-white text-xl font-bold">Why ADRS Products</h1>
+      <div className="h-fit rounded-2xl  w-full lg:w-80 bg-enterprisesolution  p-4">
+        <div className="h-65 p-5 flex flex-col gap-3 md:gap-8 lg:gap-3 "><h1 className="text-white text-xl font-bold">Why ADRS Products</h1>
         <p className="text-gray-500">Built for scale, security and deep integrations. Pick a product and start a free trial.
 
 </p>

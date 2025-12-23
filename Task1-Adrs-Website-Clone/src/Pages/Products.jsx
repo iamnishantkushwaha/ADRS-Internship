@@ -12,9 +12,9 @@ const Products = () => {
     <Powerfulproducts/>
     <UpcomingProducts/>
     <FeaturedProductspage/>
-    {/* <Compareplans/>
+    <Compareplans/>
     <FrequentlyAskedQuestion/>
-    <Readytogetstarted/> */}
+    <Readytogetstarted/>
     </div>
   )
 }

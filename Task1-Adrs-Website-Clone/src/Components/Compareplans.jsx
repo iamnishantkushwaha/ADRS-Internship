@@ -2,8 +2,8 @@ import React from 'react'
 
 const compareplans = () => {
   return (
-    <div className='min-h-screen w-full flex flex-col justify-center gap-20 '>
-       <div className="h-fit w-full flex px-45 flex-col mt-20  items-center justify-content ">
+    <div className='min-h-screen w-full flex flex-col items-center md:px-15 lg:px-45 px-10 justify-center gap-20 '>
+       <div className="h-fit w-full flex md:px-45 flex-col mt-20  items-center justify-content ">
           <div className="w-full h-fit flex items-center justify-center">
             <span className="flex text-center gap-3">
               <h1 className="text-white  font-bold text-4xl">
@@ -13,18 +13,18 @@ const compareplans = () => {
               
             </span>
           </div>
-          <p className="mt-3.5 text-xl text-center  text-gray-400 ">
-Choose the right plan for your needs
+          <p className="mt-3.5 text-xl md:text-center  text-gray-400 ">
+            Choose the right plan for your needs
 
           </p>
         </div>
        
     
    
-        <table className='mx-45 mb-10 text-white font-bold'>
+        <table className='md:mx-45 text-small w-full lg:text-base mb-10 text-white font-bold'>
             <thead className='bg-purple-600  text-white font-bold'>
-                <tr className='h-13 w-full '><th className='w-2/5 text-left p-4 rounded-tl-2xl'>Features</th>
-                <th>Starter</th>
+                <tr className='h-13   '><th className='w-2/5 text-left p-4 rounded-tl-2xl'>Features</th>
+                <th >Starter</th>
                 <th>Professional</th>
                 <th className='rounded-tr-2xl'>Enterprise</th></tr>
             </thead>
